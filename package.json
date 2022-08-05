@@ -1,0 +1,46 @@
+{
+  "name": "@kevinmarrec/nuxt-modals",
+  "type": "module",
+  "version": "0.0.0",
+  "packageManager": "pnpm@7.8.0",
+  "author": "Kevin Marrec <kevin@marrec.io>",
+  "license": "MIT",
+  "homepage": "https://github.com/kevinmarrec/nuxt-pwa-module#readme",
+  "repository": "https://github.com/kevinmarrec/nuxt-pwa-module",
+  "keywords": [
+    "nuxt",
+    "modals",
+    "module"
+  ],
+  "exports": {
+    ".": {
+      "require": "./dist/module.cjs",
+      "import": "./dist/module.mjs"
+    }
+  },
+  "main": "./dist/module.cjs",
+  "module": "./dist/module.mjs",
+  "types": "./dist/module.d.ts",
+  "files": [
+    "dist"
+  ],
+  "scripts": {
+    "build": "nuxt-module-build",
+    "dev": "nuxi dev playground",
+    "prepare": "nuxi prepare playground",
+    "lint": "eslint .",
+    "test": "vitest run",
+    "test:coverage": "pnpm test -- --reporter verbose --coverage"
+  },
+  "devDependencies": {
+    "@antfu/eslint-config": "latest",
+    "@iconify-json/mdi": "latest",
+    "@nuxt/module-builder": "latest",
+    "@unocss/nuxt": "latest",
+    "@vueuse/components": "latest",
+    "@vueuse/core": "latest",
+    "eslint": "latest",
+    "nuxt": "^3.0.0-rc.6",
+    "typescript": "latest"
+  }
+}

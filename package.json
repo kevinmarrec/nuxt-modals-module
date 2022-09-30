@@ -5,8 +5,8 @@
   "packageManager": "pnpm@7.12.0",
   "author": "Kevin Marrec <kevin@marrec.io>",
   "license": "MIT",
-  "homepage": "https://github.com/kevinmarrec/nuxt-pwa-module#readme",
-  "repository": "https://github.com/kevinmarrec/nuxt-pwa-module",
+  "homepage": "https://github.com/kevinmarrec/nuxt-modals-module#readme",
+  "repository": "https://github.com/kevinmarrec/nuxt-modals-module",
   "keywords": [
     "nuxt",
     "modals",

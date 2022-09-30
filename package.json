@@ -2,7 +2,7 @@
   "name": "@kevinmarrec/nuxt-modals",
   "type": "module",
   "version": "0.0.0",
-  "packageManager": "pnpm@7.8.0",
+  "packageManager": "pnpm@7.12.0",
   "author": "Kevin Marrec <kevin@marrec.io>",
   "license": "MIT",
   "homepage": "https://github.com/kevinmarrec/nuxt-pwa-module#readme",
@@ -30,6 +30,9 @@
     "prepare": "nuxi prepare playground",
     "lint": "eslint ."
   },
+  "dependencies": {
+    "nanoid": "^4.0.0"
+  },
   "devDependencies": {
     "@antfu/eslint-config": "latest",
     "@iconify-json/mdi": "latest",
@@ -40,8 +43,5 @@
     "eslint": "latest",
     "nuxt": "^3.0.0-rc.11",
     "typescript": "latest"
-  },
-  "dependencies": {
-    "nanoid": "^4.0.0"
   }
 }

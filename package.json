@@ -28,9 +28,7 @@
     "build": "nuxt-module-build",
     "dev": "nuxi dev playground",
     "prepare": "nuxi prepare playground",
-    "lint": "eslint .",
-    "test": "vitest run",
-    "test:coverage": "pnpm test -- --reporter verbose --coverage"
+    "lint": "eslint ."
   },
   "devDependencies": {
     "@antfu/eslint-config": "latest",
@@ -40,7 +38,7 @@
     "@vueuse/components": "latest",
     "@vueuse/core": "latest",
     "eslint": "latest",
-    "nuxt": "^3.0.0-rc.6",
+    "nuxt": "^3.0.0-rc.11",
     "typescript": "latest"
   }
 }

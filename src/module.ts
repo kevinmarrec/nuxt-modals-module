@@ -1,4 +1,4 @@
-import { addAutoImportDir, addComponentsDir, createResolver, defineNuxtModule } from '@nuxt/kit'
+import { addComponentsDir, addImportsDir, createResolver, defineNuxtModule } from '@nuxt/kit'
 
 export default defineNuxtModule({
   meta: {
@@ -7,10 +7,10 @@ export default defineNuxtModule({
   async setup () {
     const { resolve } = createResolver(import.meta.url)
 
-    addAutoImportDir(resolve('./runtime/composables'))
-
     addComponentsDir({
       path: resolve('./runtime/components'),
     })
+
+    addImportsDir(resolve('./runtime/composables'))
   },
 })

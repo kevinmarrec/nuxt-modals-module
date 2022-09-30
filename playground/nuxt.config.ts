@@ -1,12 +1,7 @@
-import { defineNuxtConfig } from 'nuxt'
-
 export default defineNuxtConfig({
   modules: [
     '@unocss/nuxt',
-    '../dist/module.mjs',
+    '../src/module',
   ],
-  unocss: {
-    preflight: true,
-    icons: true,
-  },
+  css: ['@unocss/reset/antfu.css'],
 })

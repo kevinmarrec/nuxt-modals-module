@@ -42,6 +42,7 @@
     "@vueuse/core": "latest",
     "eslint": "latest",
     "nuxt": "^3.0.0-rc.11",
+    "standard-version": "^9.5.0",
     "typescript": "latest"
   }
 }

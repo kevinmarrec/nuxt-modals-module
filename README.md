@@ -29,6 +29,10 @@ export default defineNuxtConfig({
 })
 ```
 
+# Usage
+
+Check the [playground](./playground).
+
 ## Development
 
 Make sure to install the dependencies :
